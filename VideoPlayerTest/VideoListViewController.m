@@ -24,7 +24,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+      
     }
     return self;
 }
@@ -40,6 +40,7 @@
             if ([[filename pathExtension] isEqualToString:type]) {
                 [filenamelist  addObject:filename];
             }
+//            sssssssss
         }
     }
     
